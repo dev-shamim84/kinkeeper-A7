@@ -1,3 +1,5 @@
+import Banner from "@/components/Banner";
+
 export const metadata = {
   title: "Home -kinKeeper",
 };
@@ -5,7 +7,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
-      <h2>this home page</h2>
+      <Banner />
     </div>
   );
 }
