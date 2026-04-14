@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between py-3">
           <div className=" font-bold flex gap-2 items-center">
-            <Image src={logoImg} />
+            <Image src={logoImg} alt="logo.png" />
           </div>
           <ul className="hidden md:flex items-center text-[15px] gap-4 ">
             <li>
