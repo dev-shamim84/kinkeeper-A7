@@ -7,7 +7,7 @@ const Friends = ({ friends }) => {
     <section>
       <div className="container mx-auto">
         <h2 className="font-bold text-2xl my-5">Your Friends</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5">
           {friendsData.map((friend) => (
             <FriendCard key={friend.id} friend={friend} />
           ))}
