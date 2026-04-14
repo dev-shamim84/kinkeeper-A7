@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Ahmed",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "team"],
+    "bio": "Colleague from marketing team.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Michael Lee",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["gym", "fitness"],
+    "bio": "Workout partner at the gym.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Ayesha Khan",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "ayesha@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Cousin living in Dhaka.",
+    "goal": 15,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 5,
+    "name": "David Smith",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["client"],
+    "bio": "Important client for project work.",
+    "goal": 7,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 6,
+    "name": "Fatima Noor",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "fatima@example.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["school", "friend"],
+    "bio": "Old school friend, loves art.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 7,
+    "name": "James Wilson",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["business"],
+    "bio": "Business partner for startup.",
+    "goal": 20,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 8,
+    "name": "Nusrat Jahan",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "nusrat@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["university"],
+    "bio": "Friend from computer science department.",
+    "goal": 12,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 9,
+    "name": "Chris Evans",
+    "picture": "https://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "chris@example.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["online", "gaming"],
+    "bio": "Met through online gaming community.",
+    "goal": 12,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 10,
+    "name": "Tanvir Hasan",
+    "picture": "hhttps://t4.ftcdn.net/jpg/09/59/21/77/240_F_959217710_7tXOGV30gaUOjgGuMvnFzAwZhOOXbgvd.jpg",
+    "email": "tanvir@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["neighbor"],
+    "bio": "Lives nearby, often hang out.",
+    "goal": 7,
+    "next_due_date": "2025-07-29"
+  }
+]
