@@ -11,7 +11,7 @@ export const metadata = {
 };
 const FriendsDetailsPage = async ({ params }) => {
   const { friendId } = await params;
-  const res = await fetch("http://localhost:3000/friends.json");
+  const res = await fetch("https://kinkeeper-bice.vercel.app/friends.json");
   const friends = await res.json();
   const friend = friends.find((f) => f.id === Number(friendId));
   const {

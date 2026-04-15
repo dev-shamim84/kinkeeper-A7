@@ -1,8 +1,10 @@
-import { use } from "react";
 import FriendCard from "./FriendCard";
-const Friends = ({ friends }) => {
-  const friendsData = use(friends);
-
+const Friends = async () => {
+  const res = await fetch("https://kinkeeper-bice.vercel.app/friends.json", {
+    cache: "no-store",
+  });
+  console.log(res);
+  const friendsData = await res.json();
   return (
     <section>
       <div className="container mx-auto">

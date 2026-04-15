@@ -8,21 +8,20 @@ export const metadata = {
   title: "Homepage -kinKeeper",
 };
 
-const friendsPromise = async () => {
-  const res = await fetch("http://localhost:3000/friends.json").then((res) =>
-    res.json()
-  );
-  return res;
-};
+// const friendsPromise = async () => {
+//   const res = await fetch(
+//     "https://kinkeeper-bice.vercel.app/friends.json"
+//   ).then((res) => res.json());
+//   return res;
+// };
 
 export default function Home() {
-  const friends = friendsPromise();
   return (
     <div>
       <Banner />
       <FriendState />
       <Suspense fallback={<Loading />}>
-        <Friends friends={friends} />
+        <Friends />
       </Suspense>
     </div>
   );
