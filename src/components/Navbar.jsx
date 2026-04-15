@@ -9,12 +9,9 @@ import Link from "next/link";
 import { CiHome } from "react-icons/ci";
 import { MdAccessTime } from "react-icons/md";
 import { TfiStatsUp } from "react-icons/tfi";
-import { FriendContext } from "@/context/ContextProvider";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const { friend } = useContext(FriendContext);
-  console.log(friend);
   return (
     <nav className="bg-[#ffffff] shadow sticky top-0  z-50 ">
       <div className="container mx-auto px-4">

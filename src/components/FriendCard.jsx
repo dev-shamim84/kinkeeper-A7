@@ -16,7 +16,7 @@ const FriendCard = ({ friend }) => {
           width={70}
           height={70}
           alt={name}
-          className="w-[50px] h-[50px] rounded-full object-cover"
+          className="w-[80px] h-[80px] rounded-full object-cover"
         ></Image>
       </div>
       <h2 className="font-bold text-xl">{name}</h2>
@@ -24,7 +24,7 @@ const FriendCard = ({ friend }) => {
       <div className="flex gap-3 items-center">
         {tags.map((tag, index) => (
           <span
-            className="uppercase bg-green-300/75 text-sm rounded-full px-4 py-1"
+            className="uppercase bg-green-300/75 text-xs rounded-full px-4 py-1"
             key={index}
           >
             {tag}
@@ -32,7 +32,7 @@ const FriendCard = ({ friend }) => {
         ))}
       </div>
       <button
-        className={`capitalize rounded-full px-4 py-2 text-white text-sm ${
+        className={`capitalize rounded-full px-4 py-2 text-white text-xs ${
           status === "on-track"
             ? "bg-[#244D3F]"
             : status === "almost due"

@@ -5,7 +5,6 @@ import { useContext } from "react";
 import { Legend, Pie, PieChart, Tooltip } from "recharts";
 const Rechart = () => {
   const { friends } = useContext(FriendContext);
-  console.log(friends);
   const chartData = Object.values(
     friends.reduce((acc, item) => {
       if (!acc[item.text]) {
@@ -15,6 +14,13 @@ const Rechart = () => {
       return acc;
     }, {})
   );
+  const data = chartData.map((item) => {
+    if (item.name === "Phone") item.fill = "#000";
+    if (item.name === "Text") item.fill = "#8884d8";
+    if (item.name === "Video") item.fill = "#244D3F";
+    return item;
+  });
+  console.log(data);
   return (
     <div className=" my-10 shadow p-10 rounded-md border border-slate-300 container mx-auto">
       <h2 className="font-semibold text-3xl mb-16 ">Friendship Analytics</h2>
@@ -29,7 +35,7 @@ const Rechart = () => {
           responsive
         >
           <Pie
-            data={chartData}
+            data={data}
             innerRadius="80%"
             outerRadius="100%"
             // Corner radius is the rounded edge of each pie slice
@@ -48,5 +54,4 @@ const Rechart = () => {
     </div>
   );
 };
-
 export default Rechart;

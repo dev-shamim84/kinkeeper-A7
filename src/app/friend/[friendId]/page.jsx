@@ -37,12 +37,12 @@ const FriendsDetailsPage = async ({ params }) => {
                   width={70}
                   height={70}
                   alt={name}
-                  className="w-[50px] h-[50px] rounded-full object-cover"
+                  className="w-[80px] h-[80px] rounded-full object-cover"
                 ></Image>
               </div>
               <h2 className="font-bold text-2xl">{name}</h2>
               <button
-                className={`text-sm capitalize rounded-full px-10 py-2 text-white ${
+                className={`text-xs capitalize rounded-full px-10 py-2 text-white ${
                   status === "on-track"
                     ? "bg-[#244D3F]"
                     : status === "almost due"
@@ -57,7 +57,7 @@ const FriendsDetailsPage = async ({ params }) => {
               <div className="flex gap-3 items-center">
                 {tags.map((tag, index) => (
                   <span
-                    className="uppercase text-sm bg-green-300/75 rounded-full px-4 py-1"
+                    className="uppercase text-xs bg-green-300/75 rounded-full px-4 py-1"
                     key={index}
                   >
                     {tag}
