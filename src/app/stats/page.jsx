@@ -1,13 +1,11 @@
+import Rechart from "@/components/Rechart";
+
 export const metadata = {
-  title: "State -kinKeeper",
+  title: "Statepage -kinKeeper",
 };
 
 const StatsPage = () => {
-  return (
-    <div>
-      <h2>this is state page </h2>
-    </div>
-  );
+  return <Rechart />;
 };
 
 export default StatsPage;

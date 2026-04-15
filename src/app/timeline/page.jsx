@@ -1,7 +1,7 @@
 import Timeline from "@/components/Timeline";
 
 export const metadata = {
-  title: "Timeline -kinKeeper",
+  title: "Timelinepage -kinKeeper",
 };
 
 const TimelinePage = () => {

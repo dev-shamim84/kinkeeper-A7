@@ -5,7 +5,7 @@ import Loading from "@/components/Loading";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Home -kinKeeper",
+  title: "Homepage -kinKeeper",
 };
 
 const friendsPromise = async () => {

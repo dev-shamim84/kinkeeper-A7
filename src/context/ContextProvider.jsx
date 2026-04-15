@@ -1,8 +1,6 @@
 "use client";
-
 import { createContext, useState } from "react";
 import toast from "react-hot-toast";
-
 export const FriendContext = createContext();
 const ContextProvider = ({ children }) => {
   const [friends, setFriends] = useState([]);
