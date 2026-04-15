@@ -24,7 +24,7 @@ const FriendCard = ({ friend }) => {
       <div className="flex gap-3 items-center">
         {tags.map((tag, index) => (
           <span
-            className="uppercase bg-green-300/75 rounded-full px-4 py-1"
+            className="uppercase bg-green-300/75 text-sm rounded-full px-4 py-1"
             key={index}
           >
             {tag}
@@ -32,7 +32,7 @@ const FriendCard = ({ friend }) => {
         ))}
       </div>
       <button
-        className={`capitalize rounded-full px-4 py-2 text-white ${
+        className={`capitalize rounded-full px-4 py-2 text-white text-sm ${
           status === "on-track"
             ? "bg-[#244D3F]"
             : status === "almost due"

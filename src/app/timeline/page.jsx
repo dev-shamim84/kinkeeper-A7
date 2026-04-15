@@ -1,13 +1,11 @@
+import Timeline from "@/components/Timeline";
+
 export const metadata = {
   title: "Timeline -kinKeeper",
 };
 
 const TimelinePage = () => {
-  return (
-    <div>
-      <h2>this is time line page </h2>
-    </div>
-  );
+  return <Timeline />;
 };
 
 export default TimelinePage;

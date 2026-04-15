@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import logoImg from "../asset/logo.png";
@@ -9,16 +9,23 @@ import Link from "next/link";
 import { CiHome } from "react-icons/ci";
 import { MdAccessTime } from "react-icons/md";
 import { TfiStatsUp } from "react-icons/tfi";
-
+import { FriendContext } from "@/context/ContextProvider";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const { friend } = useContext(FriendContext);
+  console.log(friend);
   return (
     <nav className="bg-[#ffffff] shadow sticky top-0  z-50 ">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-3">
           <div className=" font-bold flex gap-2 items-center">
-            <Image width={180} src={logoImg} alt="logo.png" />
+            <Image
+              width={180}
+              src={logoImg}
+              alt="logo.png"
+              className="max-w-full"
+            />
           </div>
           <ul className="hidden md:flex items-center text-[15px] gap-5 ">
             <li>

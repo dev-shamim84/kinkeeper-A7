@@ -40,9 +40,9 @@ const FriendsDetailsPage = async ({ params }) => {
                   className="w-[50px] h-[50px] rounded-full object-cover"
                 ></Image>
               </div>
-              <h2 className="font-bold text-xl">{name}</h2>
+              <h2 className="font-bold text-2xl">{name}</h2>
               <button
-                className={`capitalize rounded-full px-10 py-2 text-white ${
+                className={`text-sm capitalize rounded-full px-10 py-2 text-white ${
                   status === "on-track"
                     ? "bg-[#244D3F]"
                     : status === "almost due"
@@ -57,7 +57,7 @@ const FriendsDetailsPage = async ({ params }) => {
               <div className="flex gap-3 items-center">
                 {tags.map((tag, index) => (
                   <span
-                    className="uppercase bg-green-300/75 rounded-full px-4 py-1"
+                    className="uppercase text-sm bg-green-300/75 rounded-full px-4 py-1"
                     key={index}
                   >
                     {tag}
@@ -112,15 +112,20 @@ const FriendsDetailsPage = async ({ params }) => {
               </p>
             </div>
             <div className="bg-white shadow items-center rounded py-5 px-10 ">
-              <h4 className="font-bold">Quick Check in </h4>
-              <div className="flex flex-wrap justify-between items-center gap-5 mt-4">
-                <ContactButton icon={<MdAddCall size={25} />}>
+              <h4 className="font-bold text-center lg:text-left">
+                Quick Check in{" "}
+              </h4>
+              <div className="flex flex-wrap justify-center lg:justify-between items-center gap-5 mt-4">
+                <ContactButton friend={friend} icon={<MdAddCall size={25} />}>
                   Phone
                 </ContactButton>
-                <ContactButton icon={<LuMessageSquareText size={25} />}>
+                <ContactButton
+                  friend={friend}
+                  icon={<LuMessageSquareText size={25} />}
+                >
                   Text
                 </ContactButton>
-                <ContactButton icon={<CiVideoOn size={25} />}>
+                <ContactButton friend={friend} icon={<CiVideoOn size={25} />}>
                   Video
                 </ContactButton>
               </div>
