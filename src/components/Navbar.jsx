@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
-
 import logoImg from "../asset/logo.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -19,9 +18,9 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between py-3">
           <div className=" font-bold flex gap-2 items-center">
-            <Image src={logoImg} alt="logo.png" />
+            <Image width={180} src={logoImg} alt="logo.png" />
           </div>
-          <ul className="hidden md:flex items-center text-[15px] gap-4 ">
+          <ul className="hidden md:flex items-center text-[15px] gap-5 ">
             <li>
               <Link
                 className={`flex items-center gap-1 text-gray-500 font-semibold ${
@@ -31,7 +30,7 @@ const Navbar = () => {
                 }`}
                 href="/"
               >
-                <CiHome />
+                <CiHome size={25} />
                 Home
               </Link>
             </li>
@@ -44,7 +43,7 @@ const Navbar = () => {
                 }`}
                 href="/timeline"
               >
-                <MdAccessTime />
+                <MdAccessTime size={25} />
                 Timeline
               </Link>
             </li>
@@ -70,7 +69,7 @@ const Navbar = () => {
           </button>
         </div>
         {isOpen && (
-          <ul className="md:hidden flex flex-col justify-center items-center gap-2 pb-4 ">
+          <ul className="md:hidden flex flex-col justify-center items-center gap-5 pb-4 ">
             <li>
               <Link
                 className={`flex items-center gap-1 text-gray-500 font-semibold ${
@@ -80,7 +79,7 @@ const Navbar = () => {
                 }`}
                 href="/"
               >
-                <CiHome />
+                <CiHome size={25} />
                 Home
               </Link>
             </li>
@@ -93,7 +92,7 @@ const Navbar = () => {
                 }`}
                 href="/timeline"
               >
-                <MdAccessTime />
+                <MdAccessTime size={25} />
                 Timeline
               </Link>
             </li>
@@ -106,7 +105,7 @@ const Navbar = () => {
                 }`}
                 href="/stats"
               >
-                <TfiStatsUp />
+                <TfiStatsUp size={25} />
                 Stats
               </Link>
             </li>

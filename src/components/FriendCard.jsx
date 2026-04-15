@@ -1,11 +1,15 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const FriendCard = ({ friend }) => {
-  const { name, picture, days_since_contact, tags, status } = friend;
+  const { name, picture, days_since_contact, tags, status, id } = friend;
   return (
-    <div className="flex flex-col justify-center items-center py-5 px-2 shadow bg-white rounded space-y-3">
+    <Link
+      href={`/friend/${id}`}
+      className="flex flex-col justify-center items-center py-5 px-2 shadow bg-white rounded space-y-3"
+    >
       <div>
         <Image
           src={picture}
@@ -40,7 +44,7 @@ const FriendCard = ({ friend }) => {
       >
         {status}
       </button>
-    </div>
+    </Link>
   );
 };
 

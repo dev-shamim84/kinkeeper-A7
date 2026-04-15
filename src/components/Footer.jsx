@@ -10,8 +10,13 @@ const Footer = () => {
     <footer className="bg-[#244D3F]">
       <div className="container mx-auto">
         <div className="flex flex-col justify-center items-center py-10 space-y-3 ">
-          <Image src={footerLogo} alt="footerLogo"></Image>
-          <p className="text-white">
+          <Image
+            width={200}
+            src={footerLogo}
+            alt="footerLogo"
+            className="mx-auto"
+          ></Image>
+          <p className="text-white text-center">
             Your personal shelf of meaningful connections. Browse, tend, and
             nurture the relationships that matter most.
           </p>
@@ -22,9 +27,9 @@ const Footer = () => {
             <RiTwitterXFill size={30} />
           </div>
         </div>
-        <hr className="border-white/30 my-10" />
+        <hr className="border-white/30 " />
 
-        <div className="flex justify-between items-center mb-2 ">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center my-4 gap-3 ">
           <div>
             <p className="text-white">
               &copy; 2025 KeenKeeper. All rights reserved.
