@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Ahmed",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/7xpGBnwD/images.jpg",
     "email": "sarah@example.com",
     "days_since_contact": 5,
     "status": "on-track",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Lee",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/TDnjL9f9/business-man-cartoon-character-vector.jpg",
     "email": "michael@example.com",
     "days_since_contact": 9,
     "status": "almost due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Ayesha Khan",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/nNXyWgky/pngtree-cute-cartoon-girl-with-big-eyes-looking-up-png-image-18674706.png",
     "email": "ayesha@example.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Smith",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/cWK8y2k/flat-man-character-23-2151534209.avif",
     "email": "david@example.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Fatima Noor",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/dwjj6SWt/8766e5f221fa30acb078d6d2d6b7af81.jpg",
     "email": "fatima@example.com",
     "days_since_contact": 13,
     "status": "almost due",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "James Wilson",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/jPQh9J9Q/360-F-921493727-pe-Rv-Vx-XEw-GHRumm-Nlmp6ti-Wy4-GUVLjq7.jpg",
     "email": "james@example.com",
     "days_since_contact": 25,
     "status": "overdue",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Nusrat Jahan",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/Y7Gxnzb0/transparent-muslim-girl-cartoon-black-headscarf-female-charact-friendly-female-character-in-black-he.webp",
     "email": "nusrat@example.com",
     "days_since_contact": 6,
     "status": "on-track",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Chris Evans",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/5Wn53v3h/juliezimmi-man-9637000-1280.webp",
     "email": "chris@example.com",
     "days_since_contact": 11,
     "status": "almost due",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Tanvir Hasan",
-    "picture": "https://i.ibb.co.com/RTH3wCs3/240-F-959217710-7t-XOGV30ga-UOjg-Gu-Mvn-Fz-Aw-Zh-OOXbgvd.jpg",
+    "picture": "https://i.ibb.co.com/LzT7kRHv/business-man-cartoon-character-vector-illustration-print-design-instant-download-digital-download-ge.webp",
     "email": "tanvir@example.com",
     "days_since_contact": 1,
     "status": "on-track",
